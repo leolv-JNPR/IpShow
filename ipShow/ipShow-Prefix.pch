@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'ipShow' target in the 'ipShow' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
