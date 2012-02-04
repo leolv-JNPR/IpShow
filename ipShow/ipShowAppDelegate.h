@@ -10,7 +10,9 @@
 
 @interface ipShowAppDelegate : NSObject <NSApplicationDelegate> {
     NSWindow *window;
+    NSTextField *ipAddrText;
 }
+@property (assign) IBOutlet NSTextField *ipAddrText;
 
 @property (assign) IBOutlet NSWindow *window;
 
