@@ -13,6 +13,7 @@
 		12EC7FD514DCECB80054ED1B /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 12EC7FD314DCECB80054ED1B /* Credits.rtf */; };
 		12EC7FD814DCECB80054ED1B /* ipShowAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 12EC7FD714DCECB80054ED1B /* ipShowAppDelegate.m */; };
 		12EC7FDB14DCECB80054ED1B /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12EC7FD914DCECB80054ED1B /* MainMenu.xib */; };
+		12EC7FE314DCEE0B0054ED1B /* IpCheck.m in Sources */ = {isa = PBXBuildFile; fileRef = 12EC7FE214DCEE0B0054ED1B /* IpCheck.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,14 +22,16 @@
 		12EC7FC714DCECB80054ED1B /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		12EC7FC814DCECB80054ED1B /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		12EC7FC914DCECB80054ED1B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		12EC7FCC14DCECB80054ED1B /* ipShow-Info.plist */ = {isa = PBXFileReference; path = "ipShow-Info.plist"; sourceTree = "<group>"; };
+		12EC7FCC14DCECB80054ED1B /* ipShow-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ipShow-Info.plist"; sourceTree = "<group>"; };
 		12EC7FCE14DCECB80054ED1B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		12EC7FD014DCECB80054ED1B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		12EC7FD214DCECB80054ED1B /* ipShow-Prefix.pch */ = {isa = PBXFileReference; path = "ipShow-Prefix.pch"; sourceTree = "<group>"; };
+		12EC7FD214DCECB80054ED1B /* ipShow-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ipShow-Prefix.pch"; sourceTree = "<group>"; };
 		12EC7FD414DCECB80054ED1B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		12EC7FD614DCECB80054ED1B /* ipShowAppDelegate.h */ = {isa = PBXFileReference; path = ipShowAppDelegate.h; sourceTree = "<group>"; };
+		12EC7FD614DCECB80054ED1B /* ipShowAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ipShowAppDelegate.h; sourceTree = "<group>"; };
 		12EC7FD714DCECB80054ED1B /* ipShowAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ipShowAppDelegate.m; sourceTree = "<group>"; };
 		12EC7FDA14DCECB80054ED1B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		12EC7FE114DCEE0B0054ED1B /* IpCheck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IpCheck.h; sourceTree = "<group>"; };
+		12EC7FE214DCEE0B0054ED1B /* IpCheck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IpCheck.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +89,8 @@
 				12EC7FD714DCECB80054ED1B /* ipShowAppDelegate.m */,
 				12EC7FD914DCECB80054ED1B /* MainMenu.xib */,
 				12EC7FCB14DCECB80054ED1B /* Supporting Files */,
+				12EC7FE114DCEE0B0054ED1B /* IpCheck.h */,
+				12EC7FE214DCEE0B0054ED1B /* IpCheck.m */,
 			);
 			path = ipShow;
 			sourceTree = "<group>";
@@ -164,6 +169,7 @@
 			files = (
 				12EC7FD114DCECB80054ED1B /* main.m in Sources */,
 				12EC7FD814DCECB80054ED1B /* ipShowAppDelegate.m in Sources */,
+				12EC7FE314DCEE0B0054ED1B /* IpCheck.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
