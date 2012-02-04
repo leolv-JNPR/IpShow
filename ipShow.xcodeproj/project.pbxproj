@@ -14,6 +14,7 @@
 		12EC7FD814DCECB80054ED1B /* ipShowAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 12EC7FD714DCECB80054ED1B /* ipShowAppDelegate.m */; };
 		12EC7FDB14DCECB80054ED1B /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12EC7FD914DCECB80054ED1B /* MainMenu.xib */; };
 		12EC7FE314DCEE0B0054ED1B /* IpCheck.m in Sources */ = {isa = PBXBuildFile; fileRef = 12EC7FE214DCEE0B0054ED1B /* IpCheck.m */; };
+		12EC7FE514DCF01B0054ED1B /* README in Resources */ = {isa = PBXBuildFile; fileRef = 12EC7FE414DCF01B0054ED1B /* README */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		12EC7FDA14DCECB80054ED1B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		12EC7FE114DCEE0B0054ED1B /* IpCheck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IpCheck.h; sourceTree = "<group>"; };
 		12EC7FE214DCEE0B0054ED1B /* IpCheck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IpCheck.m; sourceTree = "<group>"; };
+		12EC7FE414DCF01B0054ED1B /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +51,7 @@
 		12EC7FB514DCECB80054ED1B = {
 			isa = PBXGroup;
 			children = (
+				12EC7FE414DCF01B0054ED1B /* README */,
 				12EC7FCA14DCECB80054ED1B /* ipShow */,
 				12EC7FC314DCECB80054ED1B /* Frameworks */,
 				12EC7FC114DCECB80054ED1B /* Products */,
@@ -157,6 +160,7 @@
 				12EC7FCF14DCECB80054ED1B /* InfoPlist.strings in Resources */,
 				12EC7FD514DCECB80054ED1B /* Credits.rtf in Resources */,
 				12EC7FDB14DCECB80054ED1B /* MainMenu.xib in Resources */,
+				12EC7FE514DCF01B0054ED1B /* README in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
