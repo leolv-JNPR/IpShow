@@ -26,7 +26,7 @@
 		12EC7FCC14DCECB80054ED1B /* IP Show-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "IP Show-Info.plist"; sourceTree = "<group>"; };
 		12EC7FCE14DCECB80054ED1B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		12EC7FD014DCECB80054ED1B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		12EC7FD214DCECB80054ED1B /* IP Show-Prefix.pch */ = {isa = PBXFileReference; path = "IP Show-Prefix.pch"; sourceTree = "<group>"; };
+		12EC7FD214DCECB80054ED1B /* IP Show-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IP Show-Prefix.pch"; sourceTree = "<group>"; };
 		12EC7FD414DCECB80054ED1B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
 		12EC7FD614DCECB80054ED1B /* ipShowAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ipShowAppDelegate.h; sourceTree = "<group>"; };
 		12EC7FD714DCECB80054ED1B /* ipShowAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ipShowAppDelegate.m; sourceTree = "<group>"; };
