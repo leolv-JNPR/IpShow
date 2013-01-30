@@ -29,5 +29,7 @@
     [retStr release];
 
 }
-
+- (BOOL)applicationShouldTerminateAfterLastWindowClosed:(NSApplication *)sender{
+    return YES;
+}
 @end
