@@ -135,6 +135,9 @@
 /* Begin PBXProject section */
 		12EC7FB714DCECB80054ED1B /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+			};
 			buildConfigurationList = 12EC7FBA14DCECB80054ED1B /* Build configuration list for PBXProject "IP Show" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
@@ -255,6 +258,7 @@
 		12EC7FDF14DCECB80054ED1B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ipShow/IP Show-Prefix.pch";
 				INFOPLIST_FILE = "ipShow/IP Show-Info.plist";
@@ -266,6 +270,7 @@
 		12EC7FE014DCECB80054ED1B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ipShow/IP Show-Prefix.pch";
 				INFOPLIST_FILE = "ipShow/IP Show-Info.plist";
@@ -293,6 +298,7 @@
 				12EC7FE014DCECB80054ED1B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

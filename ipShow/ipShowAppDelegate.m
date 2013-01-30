@@ -17,11 +17,15 @@
 {
     // Insert code here to initialize your application
     
-    NSURL *url = [NSURL URLWithString:@"http://whatismyip.org/"];
+    NSURL *url = [NSURL URLWithString:@"http://api.wipmania.com/"];
     NSData  *data      = [NSData dataWithContentsOfURL: url];
     NSString *retStr = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
-    [ipAddrText setStringValue: retStr];
+    NSRange range = [retStr rangeOfString:@"<br>"];
+    NSString *ipAddress = [retStr substringToIndex: range.location];
+    NSString *location = [retStr substringFromIndex:range.location+range.length];
     
+    [ipAddrText setStringValue: [[ipAddress stringByAppendingString:@"\n"] stringByAppendingString:location]];
+    //[ll release];
     [retStr release];
 
 }
