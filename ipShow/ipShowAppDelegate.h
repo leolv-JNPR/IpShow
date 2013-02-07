@@ -15,5 +15,6 @@
 @property (assign) IBOutlet NSTextField *ipAddrText;
 
 @property (assign) IBOutlet NSWindow *window;
+@property (assign) IBOutlet NSImageView *flagImageView;
 
 @end

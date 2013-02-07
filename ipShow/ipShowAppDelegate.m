@@ -12,6 +12,7 @@
 
 @synthesize ipAddrText;
 @synthesize window;
+@synthesize flagImageView;
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
@@ -27,6 +28,12 @@
     [ipAddrText setStringValue: [[ipAddress stringByAppendingString:@"\n"] stringByAppendingString:location]];
     //[ll release];
     [retStr release];
+    
+    NSString *path = [[NSBundle mainBundle]pathForResource:location ofType:@"png"];
+    
+    NSLog(@"%@", path);
+    flagImageView.image = [[NSImage alloc]initWithContentsOfFile: path];
+    
 
 }
 - (BOOL)applicationShouldTerminateAfterLastWindowClosed:(NSApplication *)sender{
