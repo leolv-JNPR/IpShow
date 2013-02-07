@@ -1,0 +1,7 @@
+  **** BEGIN LICENSE BLOCK ****
+  WorldIP - free geolocation database, service and tools (www.WIPmania.com)
+
+  Flags are from http://flags.blogpotato.de/
+  All sets provided are free to use to anyone, for commercial or non-commercial websites
+  Author is Matthias Slovig (flags@slovig.de)
+  **** END LICENSE BLOCK ****
